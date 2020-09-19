@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<!-- -------------------------------------------　ヘッド　--------------------------------------------　-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">  <!-- スタイルシート -->
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />    <!-- サニタイズ -->
+    <link rel="stylesheet" href="css/all.css">                         <!-- FontAwsome -->
+    <link rel="stylesheet" href="css/fonts.css">                       <!-- フォント設定 -->
+
+    <title>web site</title>
+</head>
+<!-- --------------------------------------------------------------------------------------------------　-->
+
+<body>
+<!-- -----------------------------------------　ナビゲーション　------------------------------------------　-->
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-logo">
+                <a href="#" class="text-gray">Tomoji</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Category</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social-link">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </nav>
+<!-- -----------------------------------------　メインサイト　------------------------------------------　-->
+
+    <main>
+
+        <!-- --------------------------------　サイトタイトル ---------------------------------　-->
+        <section>
+            <div class="main-visual">
+                <div class="site-background">
+                    <!-- <img> -->
+                    <video autoplay loop poster="images/bg.png" id="video-background" muted>
+                        <source src="./movie/Beach.mp4" type="video/mp4">
+                    </video>
+                    <h3>Lorem, ipsum dolor.</h3>
+                    <img class="nav-img" src="./img/main-movie-background.png" alt="">
+                    <!-- <button class="btn" id="main-btn">カテゴリー1</button> -->
+                </div>
+                <!-- <div class="scroll-btn">
+                    <button class="btn" id="main-btn">カテゴリー1</button>
+                    <button class="btn" id="main-btn">カテゴリー2</button>
+                    <button class="btn" id="main-btn">カテゴリー3</button>
+                </div> -->
+            </div>
+        </section>
+
+    
+<!-- ------------------------　ブログコンテント　------------------------------------------　-->
+        <section>
+            <div class="blog">
+                <!-- <h2>blog</h2> -->
+                <div class="container">
+                    <div class="posts fadeIn">
+                        <!-- -------------------　(写真1) --------------------　-->
+                        <div class="blog-content">
+                            <a href="#">
+                                <img src="./img/post1.jpg" alt="post-1">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rem dicta ratione nam nobis vitae consequatur suscipit voluptates animi cupiditate!</p>
+                                    <span class="button-arrow">
+                                        <span>詳しく見る</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- -------------------　(写真2) --------------------　-->
+                        <div class="blog-content">
+                            <a href="#">
+                                <img src="./img/post2.jpg" alt="post-1">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rem dicta ratione nam nobis vitae consequatur suscipit voluptates animi cupiditate!</p>
+                                    <span class="button-arrow">
+                                        <span>詳しく見る</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- -------------------　(写真3) --------------------　-->
+                        <div class="blog-content">
+                            <a href="#">
+                                <img src="./img/post3.jpg" alt="post-1">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rem dicta ratione nam nobis vitae consequatur suscipit voluptates animi cupiditate!</p>
+                                    <span class="button-arrow">
+                                        <span>詳しく見る</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- -------------------　(写真4) --------------------　-->
+                        <div class="blog-content">        
+                            <a href="#">
+                                <img src="./img/post4.jpg" alt="post-4">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rem dicta ratione nam nobis vitae consequatur suscipit voluptates animi cupiditate!</p>
+                                    <span class="button-arrow">
+                                        <span>詳しく見る</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>  
+                        <!-- -------------------　(写真5) --------------------　-->
+                        <div class="blog-content">
+                            <a href="#">
+                                <img src="./img/post5.jpg" alt="post-5">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rem dicta ratione nam nobis vitae consequatur suscipit voluptates animi cupiditate!</p>
+                                    <span class="button-arrow">
+                                        <span>詳しく見る</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- -------------------　(写真6) --------------------　-->
+                        <div class="blog-content">
+                            <a href="#">
+                                <img src="./img/post6.jpg" alt="post-6">
+                                <div class="blog-title">
+                                    <h3>Lorem ipsum dolor sit amet.</h3>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod rem dicta ratione nam nobis vitae consequatur suscipit voluptates animi cupiditate!</p>
+                                    <span class="button-arrow">
+                                        <span>詳しく見る</span>
+                                    </span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- --------------------------------　サイドバー ---------------------------------　-->
+                    <aside class="sidebar">
+                        <div class="category">
+                            <h2>category</h2>
+                            <ul class="category-list">
+                                <li class="list-items">
+                                    <a href="#">animal</a>
+                                    <span>(4)</span>
+                                </li>
+                                <hr class="hr-style">
+                                <li class="list-items">
+                                    <a href="#">nature</a>
+                                    <span>(2)</span>
+                                </li>
+                                <hr class="hr-style">
+                                <li class="list-items">
+                                    <a href="#">plant</a>
+                                    <span>(6)</span>
+                                </li>
+                                <hr class="hr-style">
+                                <li class="list-items">
+                                    <a href="#">sea</a>
+                                    <span>(9)</span>
+                                </li>
+                                <hr class="hr-style">
+                            </ul>
+                        </div>
+                        <div class="popular-tags">
+                            <h2>Tag</h2>
+                            <div class="tags">
+                                <a href="#"><span class="tag">wind</span></a>
+                                <a href="#"><span class="tag">rain</span></a>
+                                <a href="#"><span class="tag">town</span></a>
+                                <a href="#"><span class="tag">stone</span></a>
+                                <a href="#"><span class="tag">fur</span></a>
+                                <a href="#"><span class="tag">mountain</span></a>
+                                <a href="#"><span class="tag">water</span></a>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+        <!-- <hr class="hr-style"> -->
+<!-- ------------------------------------　スペシャルコンテンツ　-------------------------------------　--> 
+        <section>
+            <div class="special-contents">
+                <div class="fixed-bg bg01">
+                    <div class="fixed-bg-content">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, ut.</h2>
+                    </div>
+                </div>           
+                <div class="scroll-bg bg-color01">
+                    <div class="scroll-bg-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque itaque, laborum adipisci id ducimus necessitatibus ipsum perferendis dolorum, vitae eius maiores, deleniti laboriosam quibusdam autem. Tenetur praesentium quis harum pariatur soluta iure adipisci cumque nostrum deleniti rerum fugiat minus corporis ullam eos voluptatum voluptates natus at consectetur, quia quam illum.</p>
+                    </div>
+                </div>
+                <div class="fixed-bg bg02">
+                    <div class="fixed-bg-content">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, ut.</h2>
+                    </div>
+                </div>
+                <div class="scroll-bg bg-color02">
+                    <div class="scroll-bg-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque itaque, laborum adipisci id ducimus necessitatibus ipsum perferendis dolorum, vitae eius maiores, deleniti laboriosam quibusdam autem. Tenetur praesentium quis harum pariatur soluta iure adipisci cumque nostrum deleniti rerum fugiat minus corporis ullam eos voluptatum voluptates natus at consectetur, quia quam illum.</p>
+                    </div>
+                </div>
+                <div class="fixed-bg bg03">
+                    <div class="fixed-bg-content">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, ut.</h2>
+                    </div>
+                </div>
+                <div class="scroll-bg bg-color03">
+                    <div class="scroll-bg-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque itaque, laborum adipisci id ducimus necessitatibus ipsum perferendis dolorum, vitae eius maiores, deleniti laboriosam quibusdam autem. Tenetur praesentium quis harum pariatur soluta iure adipisci cumque nostrum deleniti rerum fugiat minus corporis ullam eos voluptatum voluptates natus at consectetur, quia quam illum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+<!-- ------------------------------------　フッター　-------------------------------------　--> 
+    <footer class="footer">
+        <div class="container">
+            <div class="category">
+                <h2>Popular post</h2>
+                <div class="blog-content">
+                    <a href="#">
+                        <img src="./img/post1.jpg" alt="post-1">
+                        <div class="blog-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi reprehenderit odit fuga facere? Eveniet minus sed, itaque at ex ipsa saepe aliquid dolore amet quae porro animi necessitatibus obcaecati recusandae! Quos deleniti, soluta quibusdam culpa sint vitae nam itaque ducimus nulla. Culpa veniam ipsa inventore repudiandae dolorum ratione quis officiis aliquid, laborum beatae, expedita enim. Laudantium ut laborum ex iste, quia ipsum recusandae! Repellendus, illo. Eveniet vero provident minima est magnam nobis omnis veritatis, corrupti quos in officiis libero harum quaerat molestiae voluptas quod magni quas pariatur? Neque numquam dicta velit odit optio ducimus? Ab voluptatum et sapiente cum.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-content">
+                    <a href="#">
+                        <img src="./img/post2.jpg" alt="post-2">
+                        <div class="blog-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi reprehenderit odit fuga facere? Eveniet minus sed, itaque at ex ipsa saepe aliquid dolore amet quae porro animi necessitatibus obcaecati recusandae! Quos deleniti, soluta quibusdam culpa sint vitae nam itaque ducimus nulla. Culpa veniam ipsa inventore repudiandae dolorum ratione quis officiis aliquid, laborum beatae, expedita enim. Laudantium ut laborum ex iste, quia ipsum recusandae! Repellendus, illo. Eveniet vero provident minima est magnam nobis omnis veritatis, corrupti quos in officiis libero harum quaerat molestiae voluptas quod magni quas pariatur? Neque numquam dicta velit odit optio ducimus? Ab voluptatum et sapiente cum.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="blog-content">
+                    <a href="#">
+                        <img src="./img/post3.jpg" alt="post-3">
+                        <div class="blog-text">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum eligendi reprehenderit odit fuga facere? Eveniet minus sed, itaque at ex ipsa saepe aliquid dolore amet quae porro animi necessitatibus obcaecati recusandae! Quos deleniti, soluta quibusdam culpa sint vitae nam itaque ducimus nulla. Culpa veniam ipsa inventore repudiandae dolorum ratione quis officiis aliquid, laborum beatae, expedita enim. Laudantium ut laborum ex iste, quia ipsum recusandae! Repellendus, illo. Eveniet vero provident minima est magnam nobis omnis veritatis, corrupti quos in officiis libero harum quaerat molestiae voluptas quod magni quas pariatur? Neque numquam dicta velit odit optio ducimus? Ab voluptatum et sapiente cum.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="instagram">
+                <h2>Instagram</h2>
+                <div class="instagram-content flex-row">
+                     <img src="./img/post1.jpg" alt="insta1">
+                     <img src="./img/post2.jpg" alt="insta2">
+                     <img src="./img/post3.jpg" alt="insta3">
+                     <img src="./img/post4.jpg" alt="insta4">
+                     <img src="./img/post5.jpg" alt="insta5">
+                     <img src="./img/post6.jpg" alt="insta6">
+                </div>
+            </div>
+            <div class="follow-content">
+                <div class="follow">
+                    <h2>Follow</h2>
+                    <p>Let us be Social </p>
+                    <div>
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="search">
+                    <h2>Search</h2>
+                    <div class="form-element">
+                        <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright flex-row">
+            <h4 class="text-gray">
+                Copyright ©️2020 All rights reserved | made by
+                <a href="www.youtube.com/c/daliytution" target="_black">Daliy Tuition <i class="fab fa-youtube">
+                </i> Channe</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x "></i></span>
+        </div>
+    </footer>
+
+    
+    <!-- ------------------------------------ JavaScriptリンク ------------------------------------ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> <!-- jQuery CDN -->
+    <script src="js/owl.carousel.min.js"></script> <!-- カーセル -->
+    <script src="js/main.js"></script> <!-- jsファイル -->
+</body>
+
+</html>
